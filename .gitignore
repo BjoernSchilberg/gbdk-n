@@ -1,2 +1,4 @@
-lib/*
-obj/*
+lib/
+obj/
+*.gb
+*.sav

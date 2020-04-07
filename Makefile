@@ -80,3 +80,4 @@ clean:
 	$(MAKE) -C examples/space clean
 	$(MAKE) -C examples/thumby clean
 	$(MAKE) -C examples/paint clean
+	$(MAKE) -C examples/shooter clean

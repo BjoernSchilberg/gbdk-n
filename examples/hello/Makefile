@@ -1,4 +1,4 @@
-PROG=adventure
+PROG=hello
 
 GBDK_N = ~/gbdk-n
 CC = $(GBDK_N)/bin/gbdk-n-compile.sh
@@ -38,7 +38,6 @@ clean:
 	@echo "Cleaning ..."
 	rm -rf $(OBJ)
 	rm -f $(PROG).gb
-	rm -f $(PROG).sav
 run:
 	@echo "Cool running ..."
 	mgba $(PROG).gb
