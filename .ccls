@@ -1,0 +1,12 @@
+%c -std=c90
+-isystem
+/home/bejaybamboo/gbdk-n/include
+-isystem
+/home/bejaybamboo/gbdk-n/include/asm
+-I
+/home/bejaybamboo/gbdk-n/include
+-I
+/home/bejaybamboo/gbdk-n/include/asm
+-I
+./
+-std=c90
